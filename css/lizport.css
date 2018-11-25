@@ -20,3 +20,8 @@ body {
   float:left;
   width: 500px;
 }
+@media screen and (min-width: 700px) {
+  body {
+    background-color: purple;
+  }
+}
