@@ -25,9 +25,15 @@ body {
     background-color: purple;
   }
 }
-@media {
-  img {
-    width: 200px;
-    height: 200px
+img {
+    width: 3cm;
+    height: 4cm;
   }
+  @media screen and (orientation: portrait) {
+img.ri {
+    max-width: 80%;
   }
+}
+@media screen and (orientation: landscape) {
+  img.ri { max-height: 80%; }
+}
